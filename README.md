@@ -29,7 +29,7 @@ Rejig is signed with a Developer ID and notarized by Apple. On first launch it a
 
 ## What it does
 
-<p align="center"><img src="docs/shortcuts-keyboard.png" width="720" alt="Shortcut map"></p>
+<p align="center"><img src="docs/settings-shortcuts.png" width="720" alt="Shortcuts — keyboard view"></p>
 
 Everything lives on `⌃⌥` (Control + Option), matching the Magnet / Rectangle muscle memory. Every action also has a second shortcut slot — the numpad layout is preconfigured there.
 
@@ -45,11 +45,13 @@ Everything lives on `⌃⌥` (Control + Option), matching the Magnet / Rectangle
 
 **Mouse**: hold `⌃⌥` and move the pointer to drag the window under it; hold `⌃⌥⌘` to resize from the nearest edge or corner. No clicking needed.
 
+<p align="center"><img src="docs/settings-mouse.png" width="720" alt="Mouse settings"></p>
+
 ### Resize units
 
 Grow / shrink steps are a fraction of the screen — horizontal and vertical are set separately in Settings, with a live preview of your monitor. While you adjust, the grid flashes over the whole screen so you can see exactly what one unit is.
 
-<p align="center"><img src="docs/unit-overlay.png" width="720" alt="Unit overlay"></p>
+<p align="center"><img src="docs/settings-general.png" width="720" alt="General settings — resize unit editor"></p>
 
 ## Settings
 
