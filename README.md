@@ -61,7 +61,7 @@ macOS 14 Sonoma or later. Universal binary.
 
 ## Feedback
 
-Issues and feature requests: [github.com/cgpathos/rejig/issues](https://github.com/cgpathos/rejig/issues) · pathos.myo@gmail.com
+Issues and feature requests: [github.com/cgpathos/rejig/issues](https://github.com/cgpathos/rejig/issues)
 
 ---
 
