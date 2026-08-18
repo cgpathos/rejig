@@ -7,7 +7,7 @@ cask "rejig" do
   desc "Keyboard-driven window manager for macOS"
   homepage "https://github.com/cgpathos/rejig"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Rejig.app"
 
