@@ -20,8 +20,10 @@
 
 ```bash
 brew tap cgpathos/rejig https://github.com/cgpathos/rejig
-brew install --cask rejig
+brew install --cask cgpathos/rejig/rejig
 ```
+
+Homebrew 6+ requires third-party taps to be trusted. Installing with the fully qualified name (`cgpathos/rejig/rejig`) trusts only this cask; afterwards `brew upgrade --cask rejig` works as usual. If you see `Refusing to load cask ... from untrusted tap`, run `brew trust cgpathos/rejig`.
 
 **Manual** — download the latest `Rejig-x.y.z.dmg` from [Releases](https://github.com/cgpathos/rejig/releases/latest), drag Rejig to Applications.
 
