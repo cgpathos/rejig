@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Rejig</title>
+    <link>https://raw.githubusercontent.com/cgpathos/rejig/main/appcast.xml</link>
+    <description>Rejig updates</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Wed, 26 Aug 2026 13:34:01 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>한국어</h3>
+<ul>
+<li>이제 Rejig가 스스로 업데이트됩니다 — 메뉴바 아이콘에서 업데이트를 확인하거나, 설정에서 자동 업데이트 확인을 켤 수 있습니다</li>
+</ul>
+<h3>English</h3>
+<ul>
+<li>Rejig can now update itself — check for updates from the menu bar icon, or turn on automatic update checks in Settings</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/cgpathos/rejig/releases/download/v1.1.0/Rejig-1.1.0.zip" sparkle:edSignature="vfbi1mvKvI90w8u1M9e+umROQAFHhRMacoJIugrW4qbwvLSIpkvP4LJAlMdzr6grztkmMH/tCseYySkBbxaZAw==" length="2312646" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
