@@ -6,6 +6,28 @@
     <description>Rejig updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.2.0</title>
+      <pubDate>Sat, 17 Oct 2026 13:34:06 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h3>한국어</h3>
+<ul>
+<li>3×3 구역·이동 단축키가 한 칸 왼쪽으로 옮겨졌습니다 — 이제 R T Y / F G H / V B N을 사용합니다. 직접 바꿔 둔 단축키는 그대로 유지됩니다</li>
+<li>창 키우기/줄이기가 폭과 높이로 나뉘었습니다 — ⌃⌥ =/− 는 폭, ⌃⌥⌘ =/− 는 높이</li>
+<li>새 단축키 ⌃⌥D: 창을 화면 ⅓ 폭으로 맞추고, 반복해서 누르면 왼쪽 → 가운데 → 오른쪽으로 이동합니다</li>
+</ul>
+<h3>English</h3>
+<ul>
+<li>The 3×3 grid and move shortcuts moved one column left — they now use R T Y / F G H / V B N. Shortcuts you customized are kept as-is</li>
+<li>Grow and Shrink are now split into width and height — ⌃⌥ =/− for width, ⌃⌥⌘ =/− for height</li>
+<li>New shortcut ⌃⌥D: fit the window to one third of the screen, and press again to cycle left → center → right</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/cgpathos/rejig/releases/download/v1.2.0/Rejig-1.2.0.zip" sparkle:edSignature="YB712UvmJiQhrX0zdb0lwAkmOShtcUNHKgIx6sreGHl4zyMiWwL6X6ZyTRoEl/VVHZ22oXK5FKj0PbZy1ivRDg==" length="2318112" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Version 1.1.0</title>
       <pubDate>Wed, 26 Aug 2026 13:34:01 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
