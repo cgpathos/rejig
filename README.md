@@ -41,6 +41,7 @@ Everything lives on `⌃⌥` (Control + Option), matching the Magnet / Rectangle
 | **Move** | `⌃⌥` R T Y / F G H / V B N | Move to one of 9 positions (numpad layout on the letters), keep size. `G` centers. |
 | **Ninths** | `⌃⌥⌘` R T Y / F G H / V B N | Same 9 positions, but snap into a 3×3 grid cell. |
 | **Resize** | `⌃⌥` = / − width<br>`⌃⌥⌘` = / − height | Grow / shrink one axis by one unit, anchored to where the window sits. Grow all the way to the screen edge, shrink back to exactly where you started. |
+| **Presets** | `⌃⌥` 1 – 9 | Snap to an area you drew yourself — see [Presets](#presets). |
 | **Maximize** | `⌃⌥` ↩ | Fill the screen. |
 | **Restore** | `⌃⌥` ⌫ | Back to the frame before the first snap. |
 | **Displays** | `⌃⌥⌘` ← → | Move to the previous / next display, keeping proportions. |
@@ -55,9 +56,18 @@ Grow / shrink steps are a fraction of the screen — horizontal and vertical are
 
 <p align="center"><img src="docs/settings-general.png" width="720" alt="General settings — resize unit editor"></p>
 
+### Presets
+
+Draw your own snap areas. **Settings → General → Presets → Edit…** (or **Edit Presets…** in the menu bar menu) shows the unit grid over the whole screen — drag across the cells to mark an area. Areas are numbered in the order you draw them, up to nine, and `⌃⌥` + that number snaps the focused window into it.
+
+- Click a number to change it (picking a number that's taken swaps the two) or to delete the area. **Reset** clears everything.
+- Nothing is saved until you press **Done** (`↩`). `Esc` backs out one step at a time and asks before discarding changes.
+- Areas are stored as a share of the screen, so the same presets work on every display.
+- Only numbers that have an area take over their shortcut — the rest of `⌃⌥` 1 – 9 stays free for other apps.
+
 ## Settings
 
-Menu bar icon → **Settings…** (or `⌘,` from the menu). Four tabs: General (gap, resize units, automatic updates), Shortcuts (list or keyboard view — every key remappable), Mouse, About. Rejig lives in the menu bar; it appears in `⌘Tab` only while the settings window is open.
+Menu bar icon → **Settings…** (or `⌘,` from the menu). Four tabs: General (gap, resize units, presets, automatic updates), Shortcuts (list or keyboard view — every key remappable), Mouse, About. Rejig lives in the menu bar; it appears in `⌘Tab` only while the settings window is open.
 
 ## Requirements
 
