@@ -37,9 +37,10 @@ Everything lives on `⌃⌥` (Control + Option), matching the Magnet / Rectangle
 | Group | Keys | What happens |
 | --- | --- | --- |
 | **Halves** | `⌃⌥` ← → ↑ ↓ | Snap to a half. Press again to shrink by ¹⁄₁₂ of the screen. |
-| **Move** | `⌃⌥` T Y U / G H J / B N M | Move to one of 9 positions (numpad layout on the letters), keep size. `H` centers. |
-| **Ninths** | `⌃⌥⌘` T Y U / G H J / B N M | Same 9 positions, but snap into a 3×3 grid cell. |
-| **Resize** | `⌃⌥` = / − | Grow / shrink by one unit, anchored to where the window sits. `+` all the way to fullscreen, `−` back to exactly where you started. |
+| **Thirds** | `⌃⌥` D | Snap to a third of the screen width, full height. Press again to cycle left → center → right. |
+| **Move** | `⌃⌥` R T Y / F G H / V B N | Move to one of 9 positions (numpad layout on the letters), keep size. `G` centers. |
+| **Ninths** | `⌃⌥⌘` R T Y / F G H / V B N | Same 9 positions, but snap into a 3×3 grid cell. |
+| **Resize** | `⌃⌥` = / − width<br>`⌃⌥⌘` = / − height | Grow / shrink one axis by one unit, anchored to where the window sits. Grow all the way to the screen edge, shrink back to exactly where you started. |
 | **Maximize** | `⌃⌥` ↩ | Fill the screen. |
 | **Restore** | `⌃⌥` ⌫ | Back to the frame before the first snap. |
 | **Displays** | `⌃⌥⌘` ← → | Move to the previous / next display, keeping proportions. |
@@ -56,7 +57,7 @@ Grow / shrink steps are a fraction of the screen — horizontal and vertical are
 
 ## Settings
 
-Menu bar icon → **Settings…** (or `⌘,` from the menu). Four tabs: General (gap, resize units), Shortcuts (list or keyboard view — every key remappable), Mouse, About. Rejig lives in the menu bar; it appears in `⌘Tab` only while the settings window is open.
+Menu bar icon → **Settings…** (or `⌘,` from the menu). Four tabs: General (gap, resize units, automatic updates), Shortcuts (list or keyboard view — every key remappable), Mouse, About. Rejig lives in the menu bar; it appears in `⌘Tab` only while the settings window is open.
 
 ## Requirements
 
